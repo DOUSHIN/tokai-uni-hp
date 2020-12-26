@@ -1,0 +1,7 @@
+<%= form_with(model:@team, local:true) do |format| %>
+  <%= format.label :team_name %>
+  <%= format.text_field :team_name %>
+  <%= format.label :team_place %>
+  <%= format.text_field :team_place %>
+  <%= format.submit %>
+<% end %>
